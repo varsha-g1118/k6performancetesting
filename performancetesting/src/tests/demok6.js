@@ -3,7 +3,7 @@
 import { sleep, group, check } from 'k6'
 import http from 'k6/http'
 import exec from "k6/execution";
-export const options = { vus: 1, duration: '5s' }
+export const options = { vus: 5, duration: '1m' }
 
 //--------------------------------vu code-------------------------------------------------//
 export default function main() {
