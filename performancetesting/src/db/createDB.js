@@ -1,11 +1,11 @@
 const Influx = require('influx');
 const influx = new Influx.InfluxDB({
     host: 'localhost',
-    port: 8087,
-    username: 'username',
-    password: 'password'
+    port: 8086,
+    username: 'varsha',
+    password: 'micro@1991'
 })
-const dbName = 'QACommunity'
+const dbName = 'k6_community'
 // Create an InfluxDB database
 influx.createDatabase(dbName);
 console.log(dbName);
